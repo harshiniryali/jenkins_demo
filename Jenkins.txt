@@ -54,7 +54,7 @@ pipeline {
         stage ('Integration Test') {
           agent any  //run this stage on any available agent
           steps {
-            echo 'Run integration tests here...'
+            echo 'Run integration doesn't test here...'
           }
         }
         stage('Sonar Scan') {
